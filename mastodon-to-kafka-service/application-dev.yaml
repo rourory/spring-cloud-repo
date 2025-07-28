@@ -38,3 +38,20 @@ kafka-producer-config:
   request-timeout-ms: 60000
   retry-count: 10
 
+kafka-consumer-config:
+  key-deserializer:
+  value-deserializer:
+  consumer-group-id:
+  auto-offset-reset:
+  specific-avro-reader-key:
+  specific-avro-reader:
+  batch-listener:
+  auto-startup:
+  concurrency-level:
+  session-timeout-ms:
+  heartbeat-interval-ms:
+  max-poll-interval-ms:
+  max-poll-records:
+  max-partition-fetch-bytes-default:
+  max-partition-fetch-bytes-boost-factor:
+  poll-timeout-ms:
